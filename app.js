@@ -115,7 +115,7 @@ const assistentesData = [
     "pausa_tarde": "17:10"
   },
   {
-    "nome": "JILVANIA CASSULE",
+    "nome": "MARIA MANUELA SILVA",
     "pausa_manha": "12:10",
     "almoco": "15:00",
     "pausa_tarde": "17:10"
