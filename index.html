@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma de Horários - Pausas dos Assistentes</title>
+    <title>Plataforma de Horários - Pausas das Equipas</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
-        <!-- Header -->
         <header class="header">
             <div class="container">
                 <h1 class="header__title">
                     <i class="fas fa-clock"></i>
                     Horários de Pausas
-            
+                </h1>
+            </div>
         </header>
 
-        <!-- Search and Filters -->
         <section class="search-section">
             <div class="container">
                 <div class="search-controls">
+                    <div class="team-tabs">
+                        <button class="team-tab-btn active" data-team="frontOffice">
+                            <i class="fas fa-headset"></i>
+                            FRONT OFFICE
+                        </button>
+                        <button class="team-tab-btn" data-team="welcome">
+                            <i class="fas fa-hand-sparkles"></i>
+                            WELCOME
+                        </button>
+                        <button class="team-tab-btn" data-team="fidelizacao">
+                            <i class="fas fa-heart"></i>
+                            FIDELIZAÇÃO
+                        </button>
+                        <button class="team-tab-btn" data-team="maisIberdrola">
+                            <i class="fas fa-bolt"></i>
+                            +IBERDROLA
+                        </button>
+                    </div>
+
                     <div class="search-box">
                         <i class="fas fa-search"></i>
                         <input 
@@ -32,44 +50,34 @@
                             class="search-input"
                         >
                     </div>
-                    
-                    <div class="filter-buttons">
-                        <button class="filter-btn active" data-filter="todos">
-                            <i class="fas fa-users"></i>
-                            Todos
-                        </button>
-                    </div>
                 </div>
 
                 <div class="stats">
                     <div class="stat-item">
-                        <span class="stat-number" id="totalAssistentes">20</span>
-                        <span class="stat-label">Assistentes</span>
+                        <span class="stat-number" id="totalAssistentes">0</span>
+                        <span class="stat-label">Assistentes na Equipa</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number" id="filteredCount">20</span>
+                        <span class="stat-number" id="filteredCount">0</span>
                         <span class="stat-label">Visíveis</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Main Content -->
         <main class="main-content">
             <div class="container">
                 <div class="assistentes-grid" id="assistentesGrid">
-                    <!-- Cards will be dynamically generated -->
-                </div>
+                    </div>
                 
                 <div class="no-results" id="noResults" style="display: none;">
                     <i class="fas fa-search"></i>
                     <h3>Nenhum assistente encontrado</h3>
-                    <p>Tente ajustar sua busca ou filtros</p>
+                    <p>Tente ajustar sua busca</p>
                 </div>
             </div>
         </main>
 
-        <!-- Footer -->
         <footer class="footer">
             <div class="container">
                 <p>&copy; 2025 Sistema de Horários - Todos os direitos reservados</p>
