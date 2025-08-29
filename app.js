@@ -1,52 +1,49 @@
 // Dados centralizados de todas as equipas
 const teamsData = {
   frontOffice: [
-    { "nome": "CARLA QUITONGO", "pausa_manha": "11:05", "almoco": "12:30", "pausa_tarde": "16:00" },
-    { "nome": "ALDAIR VILENGALENGA", "pausa_manha": "11:05", "almoco": "12:30", "pausa_tarde": "16:00" },
-    { "nome": "GABRIELLY VIDAL", "pausa_manha": "11:05", "almoco": "12:30", "pausa_tarde": "16:00" },
-    { "nome": "REBECA RODRIGUES", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" },
-    { "nome": "JOAO ALVES", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" },
-    { "nome": "STEFANY LOPES", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" },
-    { "nome": "MAYARA FERREIRA", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" },
-    { "nome": "MARIA EDUARDA SOARES", "pausa_manha": "11:25", "almoco": "13:30", "pausa_tarde": "16:20" },
-    { "nome": "JULIANA FERREIRA", "pausa_manha": "11:25", "almoco": "13:30", "pausa_tarde": "16:20" },
-    { "nome": "FELIPE RAMOS", "pausa_manha": "11:25", "almoco": "13:30", "pausa_tarde": "16:20" },
-    { "nome": "ALEXANDRA SANTOS", "pausa_manha": "11:35", "almoco": "14:00", "pausa_tarde": "16:30" },
-    { "nome": "DAVID SALVADOR", "pausa_manha": "11:35", "almoco": "14:00", "pausa_tarde": "16:30" },
-    { "nome": "GUILHERME RIBEIRO", "pausa_manha": "11:35", "almoco": "14:00", "pausa_tarde": "16:30" },
-    { "nome": "SIMONE AQUINO", "pausa_manha": "12:00", "almoco": "14:30", "pausa_tarde": "17:00" },
-    { "nome": "SILVIA MANUEL", "pausa_manha": "12:00", "almoco": "14:30", "pausa_tarde": "17:00" },
-    { "nome": "ROSANGELA FLORENTINO", "pausa_manha": "12:00", "almoco": "14:30", "pausa_tarde": "17:00" },
-    { "nome": "ALINE MORENO", "pausa_manha": "12:00", "almoco": "14:30", "pausa_tarde": "17:00" },
-    { "nome": "TEREZA CAMARGOS", "pausa_manha": "12:10", "almoco": "15:00", "pausa_tarde": "17:10" },
-    { "nome": "BENVINDA BENJAMIN", "pausa_manha": "12:10", "almoco": "15:00", "pausa_tarde": "17:10" },
-    { "nome": "MARIA MANUELA SILVA", "pausa_manha": "12:10", "almoco": "15:00", "pausa_tarde": "17:10" }
+    { "nome": "CARLA QUITONGO", "pausa_manha": "11:15", "almoco": "13:30", "pausa_tarde": "16:20" },
+    { "nome": "ALDAIR VILENGALENGA", "pausa_manha": "12:20", "almoco": "14:30", "pausa_tarde": "17:00" },
+    { "nome": "GABRIELLY VIDAL", "pausa_manha": "12:20", "almoco": "15:00", "pausa_tarde": "17:10" },
+    { "nome": "JOAO ALVES", "pausa_manha": "12:20", "almoco": "15:00", "pausa_tarde": "17:10" },
+    { "nome": "MAYARA FERREIRA", "pausa_manha": "11:55", "almoco": "12:30", "pausa_tarde": "16:00" },
+    { "nome": "MARIA EDUARDA SOARES", "pausa_manha": "12:00", "almoco": "14:00", "pausa_tarde": "16:30" },
+    { "nome": "JULIANA FERREIRA", "pausa_manha": "12:10", "almoco": "14:00", "pausa_tarde": "16:30" },
+    { "nome": "FELIPE RAMOS", "pausa_manha": "12:20", "almoco": "14:30", "pausa_tarde": "17:00" },
+    { "nome": "DAVID SALVADOR", "pausa_manha": "12:10", "almoco": "14:30", "pausa_tarde": "17:00" },
+    { "nome": "GUILHERME RIBEIRO", "pausa_manha": "12:10", "almoco": "14:00", "pausa_tarde": "16:30" },
+    { "nome": "SIMONE AQUINO", "pausa_manha": "11:05", "almoco": "12:30", "pausa_tarde": "16:00" },
+    { "nome": "SILVIA MANUEL", "pausa_manha": "11:15", "almoco": "13:30", "pausa_tarde": "16:20" },
+    { "nome": "ROSANGELA FLORENTINO", "pausa_manha": "12:00", "almoco": "13:30", "pausa_tarde": "16:20" },
+    { "nome": "ALINE MORENO", "pausa_manha": "11:05", "almoco": "12:30", "pausa_tarde": "16:00" },
+    { "nome": "TEREZA CAMARGOS", "pausa_manha": "12:00", "almoco": "13:30", "pausa_tarde": "16:20" },
+    { "nome": "BENVINDA BENJAMIN", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" },
+    { "nome": "MARIA MANUELA SILVA", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" }
   ],
   welcome: [
-    { "nome": "MARIANA MOURA", "pausa_manha": "11:30", "almoco": "14:30", "pausa_tarde": "17:00" },
+    { "nome": "MARIANA MOURA", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
     { "nome": "REBECA CERQUEIRA", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
-    { "nome": "LUANA HUPP", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
-    { "nome": "ELOA MARINHO", "pausa_manha": "11:30", "almoco": "13:30", "pausa_tarde": "16:30" },
-    { "nome": "JOHNATHAN SANTOS", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" }
+    { "nome": "LUANA HUPP", "pausa_manha": "11:30", "almoco": "13:30", "pausa_tarde": "16:30" },
+    { "nome": "ELOA MARINHO", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
+    { "nome": "JOHNATHAN SANTOS", "pausa_manha": "11:30", "almoco": "13:30", "pausa_tarde": "16:30" }
   ],
   fidelizacao: [
-    { "nome": "DANIELA FIALHO", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
+    { "nome": "DANIELA FIALHO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
     { "nome": "ELIANE FERREIRA", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
-    { "nome": "RICARDO GONÇALVES", "pausa_manha": "11:30", "almoco": "14:30", "pausa_tarde": "17:00" },
-    { "nome": "HIGOR REIS", "pausa_manha": "11:00", "almoco": "13:30", "pausa_tarde": "16:30" },
-    { "nome": "LISSA SANTOS", "pausa_manha": "11:00", "almoco": "13:30", "pausa_tarde": "16:30" }
+    { "nome": "RICARDO GONÇALVES", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
+    { "nome": "HIGOR REIS", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
+    { "nome": "LISSA SANTOS", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" }
   ],
   maisIberdrola: [
     { "nome": "JASMIM DELGADO", "pausa_manha": "11:00", "almoco": "15:00", "pausa_tarde": "17:00" },
     { "nome": "ANDERSON RODRIGUES", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
     { "nome": "GISELE FERRARI", "pausa_manha": "12:30", "almoco": "14:00", "pausa_tarde": "17:30" },
-    { "nome": "INÊS SANTOS", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:30" },
-    { "nome": "LUISA SANTOS", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
-    { "nome": "ISORQUIA FELICIANO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:30" },
-    { "nome": "BERNARDO MELO", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
+    { "nome": "INÊS SANTOS", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
+    { "nome": "LUISA SANTOS", "pausa_manha": "11:30", "almoco": "13:30", "pausa_tarde": "16:30" },
+    { "nome": "ISORQUIA FELICIANO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
+    { "nome": "BERNARDO MELO", "pausa_manha": "11:30", "almoco": "13:30", "pausa_tarde": "16:30" },
     { "nome": "JOSE JORGE", "pausa_manha": "12:30", "almoco": "14:00", "pausa_tarde": "17:30" },
     { "nome": "NIDIA COSTA", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "-" },
-    { "nome": "SHELCIA CONGO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:30" }
+    { "nome": "SHELCIA CONGO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" }
   ]
 };
 
