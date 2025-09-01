@@ -31,7 +31,7 @@ const teamsData = {
     { "nome": "ELIANE FERREIRA", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
     { "nome": "RICARDO GONÇALVES", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" },
     { "nome": "HIGOR REIS", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
-    { "nome": "LISSA SANTOS", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "17:30" }
+    { "nome": "LISSA SANTOS", "pausa_manha": "12:45", "almoco": "15:00", "pausa_tarde": "18:00" }
   ],
   maisIberdrola: [
     { "nome": "JASMIM DELGADO", "pausa_manha": "11:00", "almoco": "15:00", "pausa_tarde": "17:00" },
