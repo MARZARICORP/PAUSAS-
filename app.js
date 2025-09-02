@@ -17,6 +17,7 @@ const teamsData = {
     { "nome": "ALINE MORENO", "pausa_manha": "11:05", "almoco": "12:30", "pausa_tarde": "16:00" },
     { "nome": "TEREZA CAMARGOS", "pausa_manha": "12:00", "almoco": "13:30", "pausa_tarde": "16:20" },
     { "nome": "BENVINDA BENJAMIN", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" },
+    { "nome": "REBECA RODRIGUES", "pausa_manha": "10:00", "almoco": "15:00", "pausa_tarde": "17:00" },
     { "nome": "MARIA MANUELA SILVA", "pausa_manha": "11:15", "almoco": "13:00", "pausa_tarde": "16:10" }
   ],
   welcome: [
