@@ -45,7 +45,14 @@ const teamsData = {
     { "nome": "JOSE JORGE", "pausa_manha": "12:30", "almoco": "14:00", "pausa_tarde": "17:30" },
     { "nome": "NIDIA COSTA", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "-" },
     { "nome": "SHELCIA CONGO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" }
-  ]
+  ],
+  backoffice: [
+    { "nome": "KENNEDY ARAUJO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
+    { "nome": "ERICK ALVES", "pausa_manha": "11:15", "almoco": "13:30", "pausa_tarde": "16:15" },
+    { "nome": "JOEL DIAS", "pausa_manha": "12:00", "almoco": "13:30", "pausa_tarde": "16:30" },
+    { "nome": "GABRIELA CARDOSO", "pausa_manha": "12:30", "almoco": "14:00", "pausa_tarde": "16:45" },
+    { "nome": "ALEXANDRO PINGUELLO", "pausa_manha": "12:30", "almoco": "15:00", "pausa_tarde": "18:00" }
+],
 };
 
 // Variáveis globais
