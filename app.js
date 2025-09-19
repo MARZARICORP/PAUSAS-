@@ -51,6 +51,7 @@ const teamsData = {
     { "nome": "BERNARDO MELO", "pausa_manha": "11:30", "almoco": "13:30", "pausa_tarde": "16:30" },
     { "nome": "JOSE JORGE", "pausa_manha": "12:30", "almoco": "14:00", "pausa_tarde": "17:30" },
     { "nome": "NIDIA COSTA", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "-" },
+    { "nome": "KENNEDY ARAUJO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
     { "nome": "SHELCIA CONGO", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" }
   ],
   backoffice: [
