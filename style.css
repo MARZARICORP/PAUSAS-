@@ -12,12 +12,13 @@
   --color-charcoal-700: rgba(31, 33, 33, 1);
   --color-charcoal-800: rgba(38, 40, 40, 1);
   --color-slate-900: rgba(19, 52, 59, 1);
-  --color-teal-300: rgba(50, 184, 198, 1);
-  --color-teal-400: rgba(45, 166, 178, 1);
-  --color-teal-500: rgba(33, 128, 141, 1);
-  --color-teal-600: rgba(29, 116, 128, 1);
-  --color-teal-700: rgba(26, 104, 115, 1);
-  --color-teal-800: rgba(41, 150, 161, 1);
+  /* Verdes Iberdrola */
+  --color-teal-300: rgba(0, 168, 89, 1);   /* Verde Principal */
+  --color-teal-400: rgba(0, 150, 79, 1);   /* Verde para Hover */
+  --color-teal-500: rgba(0, 168, 89, 1);   /* Verde Principal */
+  --color-teal-600: rgba(0, 150, 79, 1);   /* Verde para Hover */
+  --color-teal-700: rgba(0, 130, 69, 1);   /* Verde mais escuro */
+  --color-teal-800: rgba(0, 178, 99, 1);   /* Verde mais claro */
   --color-red-400: rgba(255, 84, 89, 1);
   --color-red-500: rgba(192, 21, 47, 1);
   --color-orange-400: rgba(230, 129, 97, 1);
@@ -537,10 +538,7 @@ body {
     font-size: var(--font-size-sm);
   }
   
-  .assistentes-grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-16);
-  }
+  /* A REGRA PARA .assistentes-grid FOI REMOVIDA DAQUI */
   
   .pausa-item {
     flex-direction: column;
@@ -568,4 +566,43 @@ body {
   .card-body {
     padding: var(--space-16);
   }
+}
+/* ==========================================
+  ESTILOS DO CABEÇALHO COM LOGOTIPOS
+  ==========================================
+*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-24) var(--space-32); /* Ajusta o espaçamento */
+}
+
+.header .container {
+  /* Remove a largura máxima para que o título se ajuste */
+  max-width: none; 
+}
+
+.header-logos {
+  flex: 1; /* Ocupa espaço disponível */
+}
+
+.header-logos:first-child {
+  text-align: left; /* Alinha o primeiro logo à esquerda */
+}
+
+.header-logos:last-child {
+  text-align: right; /* Alinha o segundo logo à direita */
+}
+
+.header-logo {
+  height: 40px; /* Altura padrão para os logotipos */
+  width: auto;
+  max-width: 150px; /* Largura máxima para evitar que fiquem muito grandes */
+}
+/* Ficheiro: style.css */
+
+#servinform-logo {
+  /* A altura padrão é 40px, vamos aumentar para 55px */
+  height: 55px; 
 }
