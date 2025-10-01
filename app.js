@@ -25,10 +25,10 @@ const teamsData = {
     { "nome": "MARIA MANUELA SILVA", "pausa_manha": "11:05", "almoco": "12:30", "pausa_tarde": "16:00" }
   ],
   welcome: [
-    { "nome": "MARIANA MOURA", "pausa_manha": "11:30", "almoco": "14:30", "pausa_tarde": "17:00" },
+    { "nome": "MARIANA MOURA", "pausa_manha": "11:30", "almoco": "14:00", "pausa_tarde": "17:00" },
     { "nome": "REBECA CERQUEIRA", "pausa_manha": "11:00", "almoco": "13:00", "pausa_tarde": "16:00" },
     { "nome": "LUANA HUPP", "pausa_manha": "12:14", "almoco": "15:00", "pausa_tarde": "17:30" },
-    { "nome": "ELOA MARINHO", "pausa_manha": "11:30", "almoco": "13:30", "pausa_tarde": "16:30" },
+    { "nome": "ELOA MARINHO", "pausa_manha": "11:30", "almoco": "14:00", "pausa_tarde": "16:30" },
     { "nome": "JOHNATHAN SANTOS", "pausa_manha": "13:30", "almoco": "16:00", "pausa_tarde": "17:45" }
   ],
   fidelizacao: [
